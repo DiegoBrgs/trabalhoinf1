@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Trabalho booststrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <!-- Código da Barra de Navegação -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" > <img src="bootstrap/img/avatar1.jpg" alt="" width="40"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html"> Inicio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vendedor.html"> Revendedores </a>
+                </li>  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Mais </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="register.html"> Registre-se </a></li>
+                <li><a class="dropdown-item" href="sair.html"> Sair </a></li>
+            </ul>
+            </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- Container que abrigará o conteúdo da página -->
+    <div class="container text-center" style="margin-top:30px; margin-bottom:100px;">
+
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+
+            <div class="col-sm-6">
+
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin:auto;">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-5">
+                            <img src="bootstrap/img/tenis1.png" alt=" - Foto 01" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="bootstrap/img/produto4.png" alt=" - Foto 02" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="bootstrap/img/produto6.png" alt=" - Foto 03" class="d-block w-100">
+                        </div>
+                    </div>
+                
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <h2> Tênis em promoções!</h2>
+                <br>
+            </div>
+
+            <div class="col-sm-3"></div>
+        
+        </div>
+
+    </div>
+        <div class="mt-3 row">
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/produto.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> TÊNIS ÖUS IMIGRANTE BRANCO AZUL FURTA COR </h4>
+            <p class="card-text"> Tênis confortavel, indicado para skate </p>
+            <p class="card-text"> Revendedor: Theo	Gomes </p> 
+            <a href="lucro.html" class="btn btn-primary"> 440,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5 " style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/tenis1.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> TÊNIS ÖUS IMIGRANTE PRETO E BRANCO </h4>
+            <p class="card-text"> Tênis confortavel, indicado para skate, e também uso do dia a dia
+            <p class="card-text"> Revendedor: Theo	Gomes </p>
+            <a href="lucro.html" class="btn btn-primary"> 490,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/tenis3.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> TÊNIS OUS 2K PRT ESSENCIAL - Preto </h4>
+            <p class="card-text"> O novo modelo 2K é baseado nos anos 2000, que foi tao marcante para uma geração </p>
+            <p class="card-text"> Revendedor: Alice	Silva </p>
+            <a href="lucro.html" class="btn btn-primary"> 530,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/tenis2.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> TÊNIS HOCKS PUFF "TOPÁZIO" - Preto </h4>
+            <p class="card-text"> Otimo tênis para se usar no dia a dia, mas feito especialmente para andar de skate </p>
+            <p class="card-text"> Revendedor: Indefinido </p>
+            <a href="lucro.html" class="btn btn-primary"> 540,99$ </a>
+            </div>
+            </div> 
+        </div>
+        <div class="mt-3 row">
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/produto5.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> Chuteira Futsal Umbro Pró 5 Bump Club - Preto+Branco </h4>
+            <p class="card-text"> 360º Zone: Ponto de giro que assegura a rápida mudança de direção durante as jogadas.  </p>
+            <p class="card-text"> Revendedor: Arthur Santos </p> 
+            <a href="lucro.html" class="btn btn-primary"> 330,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5 " style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/produto6.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> Chuteira Futsal Umbro Pró 5 Bump Club - Branco+Preto </h4>
+            <p class="card-text"> 60º Zone: Ponto de giro que assegura a rápida mudança de direção durante as jogadas. </p>
+            <p class="card-text"> Revendedor: Arthur Santos </p>
+            <a href="lucro.html" class="btn btn-primary"> 220,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/produto7.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> Tênis Mizuno Wave Mirai 5 Feminino - Marinho </h4>
+            <p class="card-text">laca Infinity Wave garante maior estabilidade, e também ajuda a dissipar a energia e amortecer cada passada. </p>
+            <p class="card-text"> Revendedor: Alice	Silva </p>
+            <a href="lucro.html" class="btn btn-primary"> 150,99$ </a>
+            </div>
+            </div>
+
+            <div class="card col m-5" style="width:300px">
+                <img class="card-img-top" src="bootstrap/img/produto4.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            <h4 class="card-title"> Chuteira Society Adidas Predator P4 Unissex - Preto+Branco </h4>
+            <p class="card-text"> Mostre do que você é capaz e leve seu futebol para outro nível com a Chuteira Society Adidas Predator 23 4 </p>
+            <p class="card-text"> Revendedor: Mary Morais </p>
+            <a href="lucro.html" class="btn btn-primary"> 200,99$ </a>
+            </div>
+            </div> 
+        </div>
+    </body>
+</html>
